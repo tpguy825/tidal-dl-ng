@@ -2,7 +2,7 @@
 name = "tidal-dl-ng"
 authors = [{ name = "Robert Honz", email = "<cen.sored@gmail.com>" }]
 version = "0.26.2"
-description = "TIDAL Medial Downloader Next Generation!"
+description = "TIDAL Media Downloader Next Generation!"
 readme = "README.md"
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -26,6 +26,10 @@ tdng = "tidal_dl_ng.gui:gui_activate"
 
 [tool.poetry]
 packages = [{ include = "tidal_dl_ng" }]
+name = "tidal_dl_ng"
+authors = ["Robert Honz <cen.sored@gmail.com>"]
+version = "0.26.2"
+description = "TIDAL Media Downloader Next Generation!"
 
 [tool.poetry.dependencies]
 requests = "~2.32.4"
